@@ -1,0 +1,213 @@
+/* * {
+    color: purple; */
+    /*This is Universal Selector*/
+/* } */
+
+h3 {
+    color: pink;
+    /*This is External Stylesheet and this is also called Element Selector*/
+}
+
+#headingOne {
+    color: green;
+}
+
+#headingTwo {
+    color: blue;
+}
+
+#headingThree {
+    color: violet;
+    /*This is Id Selector*/
+}
+
+.myclass {
+    color: yellow;
+    /*This is Class Selector*/
+}
+
+P {
+    color: purple;
+    /*This is Foreground color*/
+}
+
+button {
+    color: blue;
+    background-color: yellow;
+    /*This is foreground & Background color*/
+}
+
+
+body {
+    background-color: #b93fcf
+    /*This is background color*/
+}
+
+h3 {
+    text-align: center;
+    text-decoration: orange wavy underline;
+    /*This is text-align*/
+    /*This is text-decoration*/
+}
+
+h4 {
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+ 
+h1 {
+    text-align: center;
+    text-decoration: red wavy underline;
+}
+
+h2 {
+    text-align: center;
+    font-weight: lighter;
+    font-family: arial;
+    font-size: 50px;
+    text-transform: lowercase;
+}
+
+h3 {
+    line-height: 2px;
+}
+/* div {
+    height: 50px;
+    width: 100px;
+} */
+
+/* div {
+    height: 100px;
+    width: 100px;
+    border: blue dotted 2px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    padding: 50px;
+    margin: 25px;
+} */
+
+/* div {
+    height: 100px;
+    width:100px;
+    padding: 25px;
+    margin: 25px;
+    border: solid;
+    display: inline-block;
+} */
+
+button {
+    display: block;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+     border:  solid 2px;
+    display: inline-block;
+}
+
+#box1 {
+    background-color: rgba(255, 0, 0, 0.5)
+}
+
+#box2 {
+    background-color: rgba(0, 255, 0, 0.75)
+}
+
+#box3 {
+    background-color: rgba( 0, 0, 255, 1)
+}
+
+#nox1 {
+    height: 100px;
+    width: 200px;
+    background-color: brown;
+    font-size: 10px;
+}
+
+#nox2 {
+    height: 50px;
+    width: 30%;
+    background-color: burlywood;
+    margin-left: 10%;
+    font-size: 2em;
+    width: 5rem;
+    /* height: 50vh;
+    width: 50vw; */
+}
+
+div {
+    height: 100px;
+    width:100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#neno1 {
+    position: static;
+    top: 20px;
+    bottom: 50px;
+    background-color: red;
+}
+
+#neno2 {
+    /* (relative to itself) */
+    position: relative;
+    top: 20px;
+    left: 25px;
+    z-index: 1;
+    background-color: green;
+}
+
+#neno3 {
+    /* (absolute is relative to parent or closest ancestor or element) */
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    background-color: yellow;
+}
+
+#neno4 {
+    /* (fixed is relative to the browser window) */
+    position: fixed;
+    top: 60px;
+    background-color: pink;
+}
+
+#neno5 {
+    /* (sticky is additional) */
+    position: sticky;
+    top: 10px;
+    background-color: blue;
+}
+
+#photo1 {
+    background-image: url("Love_Nature.jpg");
+    background-size: cover;
+    color: white;
+}
+
+#photo2 {
+    background-image: url("Audi_photo.jpg");
+    background-size: cover;
+    color: white;
+}
+
+#photo3 {
+    background-image: url("Car_photo.jpg");
+    background-size: cover;
+    color: white;
+}
+
+#container {
+    height: 200px;
+    width: 800px;
+    display: inline-block;
+}
+
+#x1 {
+    background-color: aqua;
+}
