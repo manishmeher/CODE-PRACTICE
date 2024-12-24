@@ -5,3 +5,17 @@ body {
 /* .myclass {
     visibility: hidden;
 } */
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: dodgerblue;
+}
+
+.content {
+    color: blue;
+}
+
+.newClass {
+    background-color: yellow;
+}
